@@ -10,6 +10,64 @@
     <title>Weekend Challenge</title>
 </head>
 <body>
+    <h1>Salary Calculator</h1>
+
+    <h2>Add Employee</h2>
+
+    <!-- Info form -->
+    <form id = "employeeInfo">
+        <!--First Name Input -->
+        <input
+            required
+            id = "firstNameInput"
+            type = "text"
+            placeholder= "First Name"
+        />
+        <!--Last Name Input -->
+        <input
+            required
+            id = "lastNameInput"
+            type = "text"
+            placeholder= "Last Name"
+        />
+        <!--ID num Input -->
+        <input
+            required
+            id = "idInput"
+            type = "number"
+            min = "0"
+            placeholder= "ID Number"
+        />
+        <!--Title Input -->
+        <input
+            required
+            id = "titleInput"
+            type = "text"
+            placeholder= "Title"
+        />
+        <!--Annual Salary Input -->
+        <input
+            required
+            id = "salaryInput"
+            type = "number"
+            min = "0"
+            placeholder= "Annual Salary"
+        />
+    </form>
+
+    <table id = "employeeTable">
+        <thead id = "employeeList">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Annual Salary</th>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+
     
 </body>
 </html>

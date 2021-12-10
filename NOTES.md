@@ -1,19 +1,19 @@
 <!-- Things To Do -->
 <!-- π === option + p -->
 
-[ ]Basics
+[π]Basics
     [π]index.html
         [π]HTML boiler
     [π]script.js
-    [ ]jquery file
-    [ ]style.css
-        [ ]link and source files to index.html
-    [ ]doc.ready
+    [π]jquery file
+    [π]style.css
+        [π]link and source files to index.html
+    [π]doc.ready
     [π]wireframe design
 
 [ ]HTML mock up
-    [ ]<h1>
-    [ ]<h2> or <h3>
+    [π]<h1>
+    [π]<h2>
     [ ]input boxes with plaeholder text
     [ ]submit button
     [ ]<h2> or <h3>
