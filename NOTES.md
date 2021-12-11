@@ -11,37 +11,37 @@
     [π]doc.ready
     [π]wireframe design
 
-[ ]HTML mock up
+[π]HTML mock up
     [π]<h1>
     [π]<h2>
-    [ ]input boxes with plaeholder text
-    [ ]submit button
-    [ ]<h2> or <h3>
-    [ ]table
-        [ ]6 colums
-        [ ]5 rows
-        [ ]delete button with each row
+    [π]input boxes with plaeholder text
+    [π]submit button
+    [π]<h2> or <h3>
+    [π]table
+        [π]6 colums
+        [π]5 rows
+        [π]delete button with each row
 
-[ ]Input form
-    [ ]employee first name
-    [ ]employee last name
-    [ ]employee ID number
-    [ ]employee job title
-    [ ]employee annual salary
+[π]]Input form
+    [π]employee first name
+    [π]employee last name
+    [π]employee ID number
+    [π]employee job title
+    [π]employee annual salary
 
 [ ]Submit Data
-    [ ]submit button
-    [ ]store info
-    [ ]append info to the DOM 
-    [ ]clear input fields
+    [π]submit button
+    [π]store info
+    [π]append info to the DOM 
+    [π]clear input fields
     [ ]use stored info to calaculate monthly costs
     [ ]append to the DOM
     [ ]check if monthly costs is more than $20k
         [ ]add red background to monthly cost i f so
 
 [ ]Delete
-    [ ]delete button
-    [ ]remove info from DOM
+    [π]delete button
+    [π]remove info from DOM
     [ ]Base mode doesn't need to remove the employee's salary reported
 
 [ ]styling
@@ -51,3 +51,6 @@
 _______________________
 
 [ ]Stretch Goals
+
+
+
