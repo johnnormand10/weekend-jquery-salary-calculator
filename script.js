@@ -71,19 +71,17 @@ function addEmployeeInfo(event){
         //logging what is found 
         console.log('infor of employee is', info);
         //appending 'info' to the DOM inside the <tbody>
-        for(let i = 0; i < employee.length; i++ ){
             $('#employeeList').append(`
-            <tr id = dataObject class = dataForObject>
+            <tr>
                 <td>${info.firstName}</td>
                 <td>${info.lastName}</td>
                 <td>${info.idNum}</td>
                 <td>${info.title}</td>
-                <td id = salary class = objectSalary>$${info.salary}</td>
+                <td id = salary class = objectSalary>$${info.salary.toLocaleString()}</td>
                 <td>
                     <button class = "deleteBtn">Delete</button>
                 </td>
             </tr>`)
-        }
     }
 
     
@@ -102,10 +100,11 @@ function totalSalary(){
     //loop through the global array to get the salary 
     for(let i = 0; i < employee.length; i++){
         
-        totalSalary = totalSalary + employee[i].salary
+        totalSalary = totalSalary + employee[i].salary / 12;
+        totalSalary = Math.round(totalSalary * 100)/100;
     }
     console.log(totalSalary);
-    $('#totalSalary').empty().append('Total Salary: $',totalSalary.toLocaleString());
+    $('#totalSalary').empty().append('Monthly Salary: $',totalSalary.toLocaleString());
     //use .toLocaleSting() to make the number appear with commas
     if(totalSalary > 20000){
         $('#totalSalary').css("background-color", "red");
