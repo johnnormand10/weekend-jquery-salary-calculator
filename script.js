@@ -15,9 +15,6 @@ function onReady(){
 
     
     //giving each new <tr> a data value
-    
-
-
 }
 
 //Function to add employee info to an object
